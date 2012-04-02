@@ -12,7 +12,8 @@ unset GIT_DIR
 
 # config
 SCONS_VERSION="1.2.0"
-S3_BUCKET="heroku-buildpack-nodejs"
+DEFAULT_NODE_VERSION="0.7.7"
+S3_BUCKET="s3.elu.si"
 
 # parse and derive params
 BUILD_DIR=$1
